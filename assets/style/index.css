@@ -8,7 +8,7 @@
 
 
 body {
-    background-color: var(--app-background-dark);
+    background-color: var(--app-background-white);
     font-family: 'Nunito Sans', 'Open Sans', Arial, sans-serif;
 }
 
@@ -161,3 +161,53 @@ nav ul li:last-child {
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /*  Component                                            */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+article {
+    width: 50%;
+}
+
+article h3 {
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+article p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+aside {
+    width: 50%;
+}
+
+.profile-pic {
+    height: 550px;
+    width: 100%;
+    background: #f1f4f6 url('../media/profile-pic.jpg') center 25% / cover no-repeat;
+}
+
+article .button {
+    margin-top: 40px;
+}
+
+.about {
+    background-color: #fff;
+}
+
+.who {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.who article h6 {
+    color: #0067ff;
+    background: #ecf4ff;
+    border-radius: 3px;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+}
