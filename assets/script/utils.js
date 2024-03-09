@@ -44,3 +44,11 @@ export function sleep(duration) {
 export function print(...args) {
     args.forEach(arg => console.log(arg));
 }
+
+function onEvent(selector, event, callback) {
+    return selector.addEventListener(event, callback);
+}
+  
+function select(selector, parent = document) {
+    return parent.querySelector(selector);
+}
