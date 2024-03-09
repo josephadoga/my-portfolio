@@ -1,3 +1,3 @@
 # My Portfolio Version 1.0
 
-Click [here]() to view demo
+Click [here](https://josephadoga.github.io/my-portfolio/) to view demo
