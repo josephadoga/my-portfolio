@@ -440,9 +440,9 @@ footer p {
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /*  Media Queries                                        */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-@media screen and (max-width: 1550px) {
+@media screen and (max-width: 1200px) {
     .landing-page {
-        background-image: url(../media/night-sky.png);
+        background: transparent url(../media/night-sky.png)
     }
 }
 
