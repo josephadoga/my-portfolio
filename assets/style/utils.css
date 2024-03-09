@@ -1,8 +1,12 @@
 @charset "utf-8";
 
 :root {
-    --app-background-dark: rgb(24, 23, 32);
+    --app-background-dark: #181720;
+    --app-background-darkb: rgb(24, 23, 32);
+    --app-background-darkc: rgb(19, 19, 22);
     --app-background-white: rgb(245, 245, 246);
+    --background-color-primary: rgb(24, 23, 32);
+    --background-color-secondary: rgb(244 243 255 / 0.06);
 }
 
 .flex {
@@ -39,7 +43,7 @@
     width: 140px;
     padding: 14px 0;
     color: #fff;
-    background-color: #0067ff;
+    background-color: #4F33FF;
     text-align: center;
     border-radius: 50px;
     font-weight: 700;
@@ -48,7 +52,7 @@
 }
 
 .primary-icon-btn:hover {
-    background-color: #0057d8;
+    background-color: #ff561d;
     transform: translateY(-5px);
 }
 
@@ -61,17 +65,21 @@ section {
 }
 
 .section-heading h3 {
+    color: #fff;
     font-size: 46.4px;
     padding-top: 10px;
 }
 
+.section-heading p {
+    color: #747475;
+}
+
 .section-heading h3 span {
-    color: #0067ff;
+    color: #4F33FF;
 }
 
 .section-heading h6 {
-    color: #0067ff;
-    background: #ecf4ff;
+    color: #ff561d;
     border-radius: 3px;
     width: 140px;
     height: 40px;
