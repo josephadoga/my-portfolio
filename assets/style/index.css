@@ -28,6 +28,11 @@ header {
     /* background-color: rgb(255 255 255 / 0.05); */
 }
 
+/* .fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+} */
+
 header h1 {
     font-size: 24px;
     font-weight: 600;
@@ -92,11 +97,12 @@ nav ul li i {
 }
 
 .landing-page section .button {
-    padding-top: 12px;
+    padding-top: 35px;
 }
 
 .land-content {
     width: 50%;
+    animation: transitionIn 4s;
 }
 
 .land-content h1 {
@@ -192,26 +198,31 @@ nav ul li i {
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 article {
     width: 50%;
+    animation: transitionIn 0.75s;
+    background-color: #18181B;
+    padding: 12px 30px 16px 30px;
+    border-radius: 5px;
 }
 
 article h3 {
     color: #fff;
     font-size: 26px;
-    margin-top: 20px;
+    margin-top: 8px;
 }
 
 article p {
-    color: #747475;
+    color: var(--paragraph-color);
     margin-top: 10px;
     font-size: 18px;
 }
 
 aside {
     width: 50%;
+    animation: transitionIn 0.75s;
 }
 
 .profile-pic {
-    height: 580px;
+    height: 630px;
     width: 100%;
     background: #f1f4f6 url('../media/new-pic.png') center 25% / cover no-repeat;
 }
@@ -225,13 +236,12 @@ article .button {
 }
 
 .who {
-    background-color: #18181B;
     padding: 20px;
     border-radius: 6px;
 }
 
 .who article h6 {
-    color: #ff561d;
+    color: #ff6531;
     border-radius: 3px;
     width: 140px;
     height: 40px;
@@ -250,7 +260,7 @@ article .button {
 }
 
 .skill-text h5 {
-    color: #4F33FF;
+    color: #6047ff;
     font-size: 15px;
 }
 
@@ -265,7 +275,7 @@ article .button {
 .progress {
     height: 8px;
     border-radius: 50px;
-    background-color: #4F33FF;
+    background-color: #6047ff;
 }
 .html-progress {
     width: 90%;
@@ -309,12 +319,21 @@ article .button {
     color: #fff;
 }
 .columns p {
-    color: #747475;
+    color: var(--paragraph-color);
 }
 
 .columns i {
     font-size: 60px;
-    color: #4F33FF;
+    color: var(--theme-color);
+}
+
+.service-column {
+    transition: background-color 0.25s ease-in-out;
+    cursor: pointer;
+}
+
+.service-column:hover {
+    background-color: #303035;
 }
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
@@ -322,7 +341,7 @@ article .button {
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 .socials {
-    padding: 65px 0 130px 0;
+    padding: 65px 0 65px 0;
 }
 
 .row {
@@ -340,12 +359,22 @@ article .button {
     box-shadow: 1px 1px 2px 1px rgb(0 0 0 / 0.03);
     background: #1D1D20;
 }
+
+.column {
+    transition: background-color 0.25s ease-in-out;
+    cursor: pointer;
+}
+
+.column:hover {
+    background-color: #303035;
+}
+
 .column h4 {
     color: #fff;
 }
 
 .column p {
-    color: #747475;
+    color: var(--paragraph-color);
 }
 
 .row + .row {
@@ -358,7 +387,7 @@ article .button {
 }
 
 .column .icon i {
-    color: #4F33FF;
+    color: var(--theme-color);
 }
 
 .social-apps {
@@ -372,7 +401,7 @@ article .button {
   
 .social-apps ul li a i {
     font-size: 25px;
-    color: #747475;
+    color: var(--paragraph-color);
     transition: all 0.25s ease-in-out;
 }
 
@@ -392,7 +421,7 @@ footer {
 }
 
 footer p {
-    color: #ADA8D3;
+    color: var(--paragraph-color);
     line-height: 100px;
     font-size: 15px;
 }
@@ -491,6 +520,19 @@ footer p {
 }
 
 @media (max-width: 558px) {
+    .land-content {
+        width: 80%;
+        text-align: center;
+    }
+
+    .land-content h1 {
+        font-size: 42px;
+    }
+
+    .land-content h3 {
+        font-size: 30px;
+    }
+
     .landing-page section h2 {
         font-size: 40px;
     }
@@ -503,4 +545,6 @@ footer p {
     .section-heading h3 {
         font-size: 40px;
     }
+
+
 }

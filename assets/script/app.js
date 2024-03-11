@@ -7,13 +7,26 @@
 
 'use strict';
 
-// This app requires a server to handle import statements
-// and CORS issues
-import * as utils from './utils.js';
-
-
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /*  Organizer                                            */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
-utils.print('Welcome');
+// utils.print('Welcome');
+// const header = document.querySelector('header');
+
+// const observer = new IntersectionObserver((entries, observer) => {
+//     entries.forEach(entry => {
+//         if (entry.isIntersecting) {
+//             entry.target.classList.add('show');
+//             observer.unobserve(entry.target);
+//         }
+//     });
+// }, { threshold: 0.5 });
+
+// const animate = [
+//     header
+// ];
+
+// animate.forEach(element => {
+//     observer.observe(element);
+// });
