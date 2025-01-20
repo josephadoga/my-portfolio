@@ -470,11 +470,6 @@ footer p {
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /*  Media Queries                                        */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-@media screen and (max-width: 1200px) {
-    /*.landing-page {
-        background: transparent url(../media/night-sky.png)
-    }*/
-}
 
 @media (max-width: 930px) {
     .column {
@@ -517,6 +512,14 @@ footer p {
 
     .section-heading h3 {
         font-size: 40px;
+    }
+
+    .land-content h1 {
+        font-size: 39px;
+    }
+
+    .land-content h3 {
+        font-size: 30px;
     }
 }
 
