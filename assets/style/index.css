@@ -149,6 +149,7 @@ nav ul li i {
     width: auto;
     height: auto;
     z-index: -1;
+    object-fit: cover;
 }
   
 /* .video-background::before {
@@ -470,9 +471,9 @@ footer p {
 /*  Media Queries                                        */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 @media screen and (max-width: 1200px) {
-    .landing-page {
+    /*.landing-page {
         background: transparent url(../media/night-sky.png)
-    }
+    }*/
 }
 
 @media (max-width: 930px) {
